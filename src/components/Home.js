@@ -11,10 +11,10 @@ const Home = () => {
                     <CardContent className="text-gray">
                         <span>{car.Name.toUpperCase()}</span>
                         <ul>
-                        <li>Miles_per_Gallon: {car["Miles_per_Gallon"]}</li>
-                        <li>Cylinders: {car["Cylinders"]}</li>
-                        <li>Displacement: {car["Displacement"]}</li>
-                        <li>Horsepower: {car["Horsepower"]}</li>
+                            <li>Miles_per_Gallon: {car["Miles_per_Gallon"]}</li>
+                            <li>Cylinders: {car["Cylinders"]}</li>
+                            <li>Displacement: {car["Displacement"]}</li>
+                            <li>Horsepower: {car["Horsepower"]}</li>
                         </ul>
                     </CardContent>
                     <Divider />
