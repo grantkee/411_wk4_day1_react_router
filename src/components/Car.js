@@ -15,6 +15,7 @@ const Car = (props) => {
             flexWrap: 'wrap'
         }
     }))
+    
     return (
         <Paper style={{display: 'flex', justification: 'center', flexWrap: 'wrap'}}>
         <Typography variant="h5" component="h3">
