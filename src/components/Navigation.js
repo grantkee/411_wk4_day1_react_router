@@ -20,9 +20,6 @@ const Navigation = () => {
                     <li className="nav-list-item">
                         <Link to="/about">About</Link>
                     </li>
-                    <li className="nav-list-item">
-                        <Link to="/car">Car</Link>
-                    </li>
                 </ul>
             </Toolbar>
         </AppBar>
